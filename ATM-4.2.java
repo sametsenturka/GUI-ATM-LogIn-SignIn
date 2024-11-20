@@ -28,7 +28,7 @@ public class Main {
     public static void WelcomeMenu(){
         JFrame frame = new JFrame("Welcome");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300, 150);
+        frame.setSize(300, 170);
         frame.setLayout(new BorderLayout());
 
         JLabel label = new JLabel("Login or Sign In", SwingConstants.CENTER);
@@ -80,7 +80,7 @@ public class Main {
 
     public static void showLoginScreen() {
         JFrame frame = new JFrame("ATM Login");
-        frame.setSize(300, 200);
+        frame.setSize(300, 220);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new GridLayout(3, 2));
 
@@ -119,7 +119,7 @@ public class Main {
 
     public static void showMenuScreen() {
         JFrame frame = new JFrame("ATM Menu");
-        frame.setSize(300, 300);
+        frame.setSize(300, 320);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new GridLayout(5, 1));
 
